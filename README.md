@@ -3,7 +3,7 @@
 ####Minimal Tooltips plugin for jQuery
 
 ##How to use?
-- `In $(document).ready(function(){});` section;
+- In `$(document).ready(function(){});` section;
 - Put `$.minimalTips();` code;
 - Stylize the CSS with your preferences;
 - Done!
@@ -59,4 +59,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Enjoy!
-
