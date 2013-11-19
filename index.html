@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+  
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>Minimal Tips</title>
+
+		<link rel="stylesheet" type="text/css" href="http://dl.dropboxusercontent.com/u/28591707/GitHub/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="http://dl.dropboxusercontent.com/u/28591707/GitHub/jquery.minimalTips/jquery.minimalTips.css" />
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://dl.dropboxusercontent.com/u/28591707/GitHub/jquery.minimalTips/jquery.minimalTips.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$.minimalTips();
+			});
+		</script>
+
+		<style type="text/css">
+			#Direita { float: right; }
+			#RodapeFixo {
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				padding: 6px;
+				background: #EEE;
+				border-top: 1px solid #222;
+				border-left: 1px solid #222;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<h1>Minimal Tips</h1>
+		
+		<p><strong>Minimal Tooltips plugin for jQuery</strong></p>
+		
+		<ul>
+			<li><a href="http://vinicius-stutz.github.io/jquery.minimalTips" title="Página no GitHub">See the project page on GitHub &raquo;</a></li>
+			<li><a href="http://github.com/vinicius-stutz" title="Outros projetos">See the others projects on GitHub &raquo;</a></li>
+		</ul>
+
+		<h2>How to use?</h2>
+		
+		<ol>
+			<li>In <code>$(document).ready(function(){});</code> section;</li>
+			<li>Put <code>$.minimalTips();</code> code;</li>
+			<li>Stylize the CSS with your preferences;</li>
+			<li>Done!</li>
+		</ol>
+
+		<h2>Sample:</h2>
+
+		<div id="Container">
+			<a href="javascript:void(0);" title="Primeiro link">Elemento a com atributo title preenchido</a><br />
+			<a href="javascript:void(0);" title="Segundo link">Outro elemento a com atributo title preenchido</a><br />
+			<a href="javascript:void(0);">Terceiro link (sem o atributo title)</a><br />
+			<span class="mintip" title="Quarto link? Mas isso não é um link!">Uma tag span com o atributo class igual a "mintip"</span><br />
+			<a href="javascript:void(0);" id="Direita" title="Link com float right">Testando posicionamento</a><br />
+			<a href="http://www.vinicius-stutz.com/" title="Sexto link">Meu site</a><br />
+			<a href="javascript:void(0);" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.">Link com descrição grande</a><br />
+			<a href='javascript:void(0);' id='RodapeFixo' title='Link com position fixed'>Testando posicionamento, rodapé fixo</a>
+		</div>
+
+		<h2>Features:</h2>
+		<p>Very easy to use! Too light to load (only 5 KB, this plugin and your style together)!</p>
+		<p>Supports "a" tags and "mintip" class (in all tags)!</p>
+		
+		<h2>Install:</h2>
+
+		<pre><code>
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;jquery.minimalTips.css&quot; /&gt;
+		&lt;script src=&quot;http://code.jquery.com/jquery-latest.js&quot;&gt;&lt;/script&gt;
+		&lt;script src=&quot;jquery.minimalTips.js&quot;&gt;&lt;/script&gt;
+		</code></pre>
+
+		<h2>The code:</h2>
+		
+		<pre><code>
+		&lt;script type=&quot;text/javascript&quot;&gt;
+			$(document).ready(function() {
+				$.minimalTips();
+			});
+		&lt;/script&gt;
+		</code></pre>
+
+		<h2>The HTML:</h2>
+		
+		<pre><code>
+			&lt;a href=&quot;#&quot; title=&quot;Primeiro link&quot;&gt;This is a link&lt;/a&gt;
+			&lt;span class=&quot;mintip&quot; title=&quot;Outro elemento&quot;&gt;Another element&lt;/span&gt;
+		</code></pre>
+
+		<a href="http://www.vinicius-stutz.com/">&copy;2013 - Vinicius-Stutz.com</a>
+
+	</body>
+</html>
