@@ -71,7 +71,7 @@ $.minimalTips = function(){
   
     setPos(e);
 
-    },
+  },
 
     function(){
       this.title = this.t;
@@ -82,3 +82,5 @@ $.minimalTips = function(){
   $("a, .mintip").mousemove(function(e){ setPos(e); });
 
 };
+
+/*-----  End of jQuery Minimal Tips  ------*/
