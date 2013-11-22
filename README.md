@@ -9,7 +9,7 @@
 - Done!
 
 ##Features:
-- Very easy to use! Too light to load (only 5 KB, this plugin and your style together)
+- Very easy to use! Too light to load (only 6 KB, this plugin and your style together)
 - Supports keyboard navigation (using the "tab" and then "enter" on the desired tab)
  
 ##Install:
