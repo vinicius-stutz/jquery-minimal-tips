@@ -1,24 +1,24 @@
 # Minimal Tips for jQuery
 
-####Minimal Tooltips plugin for jQuery
+Minimal Tooltips plugin for jQuery
 
-##How to use?
+## How to use?
 - In `$(document).ready(function(){});` section;
 - Put `$.minimalTips();` code;
 - Stylize the CSS with your preferences;
 - Done!
 
-##Features:
+## Features:
 - Very easy to use! Too light to load (only 6 KB, this plugin and your style together)
 - Supports keyboard navigation (using the "tab" and then "enter" on the desired tab)
  
-##Install:
+## Install:
 ```html
 		<link rel="stylesheet" type="text/css" href="jquery.minimalTips.css" />
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="jquery.minimalTips.js"></script>
 ```
-##The code:
+## The code:
 ```html
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -26,16 +26,16 @@
 			});
 		</script>
 ```
-##The html:
+## The html:
 ```html
 			<a href="#" title="Primeiro link">This is a link</a>
 			<span class="mintip" title="Outro elemento">Another element</span>
 ```
-##Links:
+## Links:
 - Plugin page <http://vinicius-stutz.github.io/jquery.minimalTips>
 - Official website <http://www.vinicius-stutz.com/>
 
-##MIT License
+## MIT License
 The MIT License (MIT)
 
 Copyright (c) 2013 Vinícius Stutz
