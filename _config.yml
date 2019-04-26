@@ -1,0 +1,8 @@
+title: Jquery.minimalTips
+description: Minimal Tooltips plugin for jQuery
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
